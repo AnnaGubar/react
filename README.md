@@ -1,1 +1,4 @@
-Азы: подготовка к работе, разбор компонентов, добавление стилей.
+component
+props
+defaultProps
+PropTypes
