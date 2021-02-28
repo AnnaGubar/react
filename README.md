@@ -25,16 +25,16 @@
  backgroundColor: 'black', \
  }}>
 
-- Ванильный CSS \
+- Ванильный CSS
 - Препроцессоры: SASS \
    \
-  npm install node-sass --save \
+  npm install node-sass --save
 
 - CSS-модули \
    \
   import styles from './Example.module.css';
 
-<тег className={styles.селектор}> в .module.css обычный css
+  <тег className={styles.селектор}> в .module.css обычный css
 
 - CSS in JS
 - Про библиотеки компонентов
