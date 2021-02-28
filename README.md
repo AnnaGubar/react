@@ -8,7 +8,7 @@ npm install --save-dev prettier husky lint-staged \
  \
 { "files.autoSave": "onFocusChange", \
 "editor.formatOnSave": true, \
-"editor.codeActionsOnSave":{ \
+"editor.codeActionsOnSave": { \
 "source.fixAll.eslint": true } \
 } \
  \
