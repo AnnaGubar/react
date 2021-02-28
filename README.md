@@ -20,14 +20,14 @@ npm install modern-normalize \
  \
 --- Инлайн стили \
 
-<div style={{ \ 
- width: 200, \
- border: '2px solid red', \
- backgroundColor: 'black', \
-}}> \
- \
+<div style={{ 
+ width: 200, 
+ border: '2px solid red', 
+ backgroundColor: 'black', 
+}}>
+
 --- Ванильный CSS \
-\
+ \
 --- Препроцессоры: SASS \
  \
 npm install node-sass --save \
@@ -35,6 +35,7 @@ npm install node-sass --save \
 --- CSS-модули \
  \
 import styles from './Example.module.css'; \
+
 <div className={styles.container}>...</div> \
  тег                    селектор \
  в .module.css обычный css \
