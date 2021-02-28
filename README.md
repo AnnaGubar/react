@@ -1,4 +1,4 @@
-Настраиваем линтинг перед коммитом \
+--- Настраиваем линтинг перед коммитом \
  \
 npm install --save-dev prettier husky lint-staged \
  \
@@ -12,11 +12,33 @@ npm install --save-dev prettier husky lint-staged \
 "source.fixAll.eslint": true } \
 } \
  \
-Нормализация \
+--- Нормализация \
  \
-Инлайн стили \
-Ванильный CSS \
-Препроцессоры: SASS \
-CSS-модули \
-CSS in JS \
-Про библиотеки компонентов
+npm install modern-normalize \
+ \
+в файле index.js = > import 'modern-normalize/modern-normalize.css'; \
+ \
+--- Инлайн стили \
+
+<div style={{ \ 
+ width: 200, \
+ border: '2px solid red', \
+ backgroundColor: 'black', \
+}}> \
+ \
+--- Ванильный CSS \
+\
+--- Препроцессоры: SASS \
+ \
+npm install node-sass --save \
+ \
+--- CSS-модули \
+ \
+import styles from './Example.module.css'; \
+<div className={styles.container}>...</div> \
+ тег                    селектор \
+ в .module.css обычный css \
+ \
+--- CSS in JS \
+ \
+--- Про библиотеки компонентов
