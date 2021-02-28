@@ -19,11 +19,11 @@
 
 - Инлайн стили
 
-<тег style={{ \
- width: 200, \
- border: '2px solid red', \
- backgroundColor: 'black', \
- }}>
+  <тег style={{ \
+   width: 200, \
+   border: '2px solid red', \
+   backgroundColor: 'black', \
+   }}>
 
 - Ванильный CSS
 - Препроцессоры: SASS \
