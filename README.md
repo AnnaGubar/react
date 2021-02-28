@@ -18,13 +18,13 @@ npm install modern-normalize \
  \
 в файле index.js = > import 'modern-normalize/modern-normalize.css'; \
  \
---- Инлайн стили \
+--- Инлайн стили
 
-<!-- <div style={{
- width: 200,
- border: '2px solid red',
- backgroundColor: 'black',
-}}> -->
+- <div style={{
+- width: 200,
+- border: '2px solid red',
+- backgroundColor: 'black',
+- }}>
 
 --- Ванильный CSS \
  \
