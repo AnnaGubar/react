@@ -1,24 +1,23 @@
-.list {
+.gallery {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   position: relative;
 }
 
-.list li {
-  /* position: absolute; */
+.gallery li {
   flex-basis: calc(20% - 1rem);
   overflow: hidden;
   cursor: pointer;
 }
 
-.list li img {
+.gallery li img {
   width: 100px;
   transform: scale(1);
   transition: transform 0.4s cubic-bezier(0.77, 0, 0.18, 1);
 }
 
-.list li:after {
+.gallery li:after {
   content: "";
   position: absolute;
   top: 0;

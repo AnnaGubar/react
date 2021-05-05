@@ -1,11 +1,11 @@
 import React from "react";
-import s from "./Gallery.module.css";
+import styles from "./Gallery.module.css";
 import db from "../../../../db/gallery.json";
 
 const Gallery = () => {
   return (
     <>
-      <ul className={s.list}>
+      <ul className={styles.gallery}>
         {db.map((el) => (
           <li key={el.id}>
             <img src={el.url} alt={el.alt} />
@@ -15,4 +15,5 @@ const Gallery = () => {
     </>
   );
 };
+
 export default Gallery;
